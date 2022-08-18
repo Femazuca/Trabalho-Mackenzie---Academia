@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #1f1f1f 16.62%, #1d1d1d 85.61%);
+
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.cabecalho-imagem {
+    height: 100px;
+    Width: 100px;
+    margin-right: 1200px;
+
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+
+}
+
+.cabecalho-menu-item {
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+
+}
+.Treinos{
+  font-size: 25px;
+  text-decoration-color: white;
+  margin-top: 50px;
+  justify-content: left;
+  align-items: flex-start;
+  margin-right: 10px;
+
+
+}
+td{
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  border: 5px solid;
+  border-color: white;
+  border-radius: 3px;
+
+}
+.videos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  margin-top: -180px;
+
+}
+
+.rodape {
+  background-color: black;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.rodape-imagem{
+  height: 70px;
+  display: block;
+  margin: 0 auto;
+}
+#pt{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+} 
+iframe{
+  width: 420px;
+  height: 220px;
+} 

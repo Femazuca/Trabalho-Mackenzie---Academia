@@ -1,0 +1,103 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #1f1f1f 16.62%, #1d1d1d 85.61%);
+
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.cabecalho-imagem {
+    height: 100px;
+    Width: 100px;
+    margin-right: 1200px;
+
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+
+}
+
+.cabecalho-menu-item {
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+
+}
+.nav1{
+   margin-top: 30px;
+   padding: 10px;
+   width: 50%;
+   color: white;
+   font-size: 18px;
+}
+.titulo{
+    font-size: 30px;
+    text-decoration: underline;
+    display: flex; 
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.nav2{
+    position: absolute;
+    top: 235px;
+    right: 0px;
+    padding: 10px;
+    width: 50%;
+    color: white;
+}
+.img1{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.img2{
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    background-image: black;
+    height: 100%;
+    width: 60%;
+   
+}
+
+.img3{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    background-image: black;
+}
+.img4{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    height: 100%;
+    width: 60%;
+
+}
+.img5{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 60%;
+}
